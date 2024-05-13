@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 70%;
+    height: 100vh;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;    
+}
+.card{
+    /* margin-top: 40px; */
+    padding-top: 20px;
+    min-width: 350px;
+    min-height: 250px;
+    border: 2px solid black;
+    border-radius: 10px;
+ 
+}
+.card label{
+    display: block;
+    margin: 20px 0px 5px 12px;
+    font-size: 1.2rem;
+}
+.card input{
+    display: block;
+    width: 95%;
+    margin: 5px 0px;
+    height: 35px;
+    margin: 0 auto;
+    border-radius: 25px;
+    padding: 3px 5px;
+    outline: none;
+    border-color: rgb(193, 186, 186);
+}
